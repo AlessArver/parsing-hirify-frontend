@@ -1,0 +1,24 @@
+.messageText {
+  margin-top: 5px;
+  padding: 10px 15px;
+  max-width: 500px;
+  background-color: #f0efef50;
+  border-radius: 10px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  font-style: italic;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #c5c2c250;
+  }
+}
+
+.buttonApply {
+  margin-top: 5px;
+}
+
+.title {
+  margin: 0 !important;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: minmax(300px, 450px) minmax(300px, 500px);
+  gap: 20px;
+}
+
+.vacancies {
+  max-width: 450px;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.select {
+  width: 100%;
+  margin-bottom: 10px;
+}
