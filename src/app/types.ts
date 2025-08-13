@@ -1,4 +1,4 @@
-import type { IVacancy, IVacancyContacts } from "../entities/vacancy/types";
+import type { IVacancy } from "../entities/vacancy/types";
 import {
   GRAGE_TYPES,
   REMOTE_TYPES,
@@ -24,7 +24,7 @@ export interface ILaunchHirifyParsingParams {
 }
 export interface ILaunchHirifyParsingResponse {
   success: boolean;
-  vacancies: Array<IVacancy & { contacts?: IVacancyContacts }>;
+  vacancies: IVacancy[];
   pages: number;
   page: number;
   total_found: number;
